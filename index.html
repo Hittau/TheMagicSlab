@@ -2,12 +2,13 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="google" content="notranslate" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Magic Slab</title>
 		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
 			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
 			type="text/css"
 		/>
 		<link
@@ -15,7 +16,7 @@
 			href="src/img/favicon.png"
 			type="image/x-icon"
 		/>
-		<link href="src/css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="src/css/style.css" type="text/css" />
 	</head>
 	<body>
 		<div class="wrapper">
@@ -31,23 +32,6 @@
 							</li>
 						</ul>
 					</div>
-					<div class="menu-collapse">
-						<div class="menu-collapse__close">
-							<span></span>
-							<span></span>
-						</div>
-						<ul class="menu-collapse__list list">
-							<li class="list__item">
-								<a href="#" class="list__link">Home</a>
-							</li>
-							<li class="list__item">
-								<a href="#" class="list__link">About</a>
-							</li>
-							<li class="list__item">
-								<a href="#" class="list__link">Contact</a>
-							</li>
-						</ul>
-					</div>
 					<div class="header__logo">
 						<span>The Magic Slab</span>
 					</div>
@@ -56,11 +40,30 @@
 					</div>
 				</div>
 			</header>
+			<div class="menu-collapse">
+				<div class="menu-collapse__close">
+					<span></span>
+					<span></span>
+				</div>
+				<ul class="menu-collapse__list list">
+					<li class="list__item">
+						<a href="#" class="list__link">Home</a>
+					</li>
+					<li class="list__item">
+						<a href="#" class="list__link">About</a>
+					</li>
+					<li class="list__item">
+						<a href="#" class="list__link">Contact</a>
+					</li>
+				</ul>
+			</div>
 			<main class="main">
 				<section class="intro">
 					<div class="intro__container">
 						<div class="intro__text">
-							<h1>Freshly<br />Churned<br />Every Day.</h1>
+							<h1 class="intro__title">
+								Freshly<br />Churned<br />Every Day.
+							</h1>
 						</div>
 						<div class="intro__slider">
 							<div class="intro__item">
@@ -593,8 +596,8 @@
 			</footer>
 		</div>
 
-		<script src="src/js/jquery-3.6.0.min.js"></script>
-		<script src="src/js/slick.min.js"></script>
-		<script src="src/js/script.js"></script>
+		<script type="text/javascript" src="src/js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="src/js/slick.min.js"></script>
+		<script type="text/javascript" src="src/js/script.js"></script>
 	</body>
 </html>
